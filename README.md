@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Custom React Hooks
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Description
+
+This project is to develop a heap of reusable custom React hooks in Typescript, and fully tested hooks. Not only helping me learn the react testing library, practice my Typescript skills but also have a NPM package of my own to use on future projects.
 
 ## Available Scripts
 
