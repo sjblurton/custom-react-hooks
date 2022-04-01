@@ -5,9 +5,7 @@ const ToggleComponent = () => {
   return (
     <div>
       <h1>ToggleComponent</h1>
-      <button onClick={() => toggleValue()}>
-        toggle value is: {`${value}`}
-      </button>
+      <button onClick={() => toggleValue()}>toggle</button>
       <button onClick={() => toggleValue(false)}>set false</button>
       <button onClick={() => toggleValue(true)}>set true</button>
     </div>
