@@ -1,14 +1,25 @@
 # Custom React Hooks
 
-Reusable custom React hooks in Typescript, and fully tested hooks.
+Tested reusable custom React hooks in Typescript.
 
-### useToggle
+## useToggle
 
-Call the hook as true, default is false if no value is passed...
+### Call the hook as true, default is false if no value is passed...
+
 `const [value, toggleValue] = useToggle(true)`
-Toggle hook...
+
+### Toggle hook...
+
 `toggleValue()`
-Set the value to false...
+
+### Set the value to false...
+
 `toggleValue(false)`
-Set the value to true...
+
+### Set the value to true...
+
 `toggleValue(true)`
+
+### Use value
+
+`console.log(value)`

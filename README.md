@@ -35,6 +35,4 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+You can learn more in the [Custom React Hooks Docs](https://github.com/sjblurton/custom-react-hooks/blob/main/src/hooks/README.md).
