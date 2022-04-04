@@ -1,5 +1,5 @@
 import "./App.css";
-import { ArrayComponent } from "./components";
+import { AxiosComponent } from "./components";
 
 function App() {
   return (
@@ -7,7 +7,8 @@ function App() {
       {/* <ToggleComponent /> */}
       {/* <TimeoutComponent /> */}
       {/* <DebounceComponent /> */}
-      <ArrayComponent />
+      {/* <ArrayComponent /> */}
+      {<AxiosComponent />}
     </div>
   );
 }

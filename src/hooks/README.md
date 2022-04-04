@@ -96,3 +96,13 @@ remove the element at the given index.
 
 update the element in the array of the given index.
 `update(2, 'fo')`
+
+# useAxios
+
+Fetch data from external API with axios, and cache stores it using useSWR.
+
+returns an object with data, error, isValidating, mutate.
+
+### **To call the hook...**
+
+` const {data, error, isValidating, mutate } = useAxios(url);`
