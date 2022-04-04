@@ -35,3 +35,15 @@ useTime takes 2 arguments, the first is the function you would like to run after
 ### To reset timeout...
 
 `reset()`
+
+<br/>
+
+# useDebounce
+
+useDebounce to add a delay to a action after stopping interaction. I.E. after typing into a search field add a delay after stopping typing to call an API.
+
+there's 3 arguments, the first is the function to delay, the second is the delay in milliseconds, and the third is the dependencies which will reset the timer.
+
+### To call the hook...
+
+`useDebounce(() => callAPI, 1000, [searchFieldInput])`

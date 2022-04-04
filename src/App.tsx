@@ -1,11 +1,12 @@
 import "./App.css";
-import { TimeoutComponent } from "./components";
+import { DebounceComponent } from "./components";
 
 function App() {
   return (
     <div className="App">
       {/* <ToggleComponent /> */}
-      <TimeoutComponent />
+      {/* <TimeoutComponent /> */}
+      <DebounceComponent />
     </div>
   );
 }
