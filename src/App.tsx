@@ -1,10 +1,11 @@
 import "./App.css";
-import ToggleComponent from "./components/toggle-component";
+import { TimeoutComponent } from "./components";
 
 function App() {
   return (
     <div className="App">
-      <ToggleComponent />
+      {/* <ToggleComponent /> */}
+      <TimeoutComponent />
     </div>
   );
 }

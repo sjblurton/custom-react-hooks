@@ -1,6 +1,6 @@
 import { useToggle } from "../hooks";
 
-const ToggleComponent = () => {
+export const ToggleComponent = () => {
   const [value, toggleValue] = useToggle();
   return (
     <div>
@@ -11,5 +11,3 @@ const ToggleComponent = () => {
     </div>
   );
 };
-
-export default ToggleComponent;
