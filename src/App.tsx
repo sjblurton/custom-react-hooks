@@ -1,12 +1,13 @@
 import "./App.css";
-import { DebounceComponent } from "./components";
+import { ArrayComponent } from "./components";
 
 function App() {
   return (
     <div className="App">
       {/* <ToggleComponent /> */}
       {/* <TimeoutComponent /> */}
-      <DebounceComponent />
+      {/* <DebounceComponent /> */}
+      <ArrayComponent />
     </div>
   );
 }
