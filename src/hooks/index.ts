@@ -6,3 +6,4 @@ export { useArray } from "./use-array";
 export { useAxios } from "./use-axios";
 export { usePrevious } from "./use-previous";
 export { useLocalStorage, useSessionStorage } from "./use-storage";
+export { useStateWithHistory } from "./use-state-with-history";

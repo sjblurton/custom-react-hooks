@@ -127,3 +127,27 @@ return a tuple of [string, setState function, and a remove function].
 
 `const [name, setName, removeName] = useSessionStorage("name", "foo")`
 `const [age, setAge, removeAge] = useLocalStorage("age", "40")`
+
+# useStateWithHistory
+
+useStateWithHistory hook stores the history of the state in an array. It takes two arguments, the first is the default value, and the second is a capacity which will default to 10.
+
+return a tuple of [Generic, (Generic) => void, functions object].
+
+### **To call the hook...**
+
+`const [count, setCount, { back, forward, go, history, pointer }] =useStateWithHistory(3, 5);`
+
+### **back**, **forward**, & **go**
+
+move back, and forward through the history. The go function needs passing a number for the index you'd like to go too.
+
+`back()`
+
+`forward()`
+
+`go(3)`
+
+### **history**, & **pointer**
+
+history is an array of the state history, pointer is where the current state is at i the history.

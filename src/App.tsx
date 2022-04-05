@@ -1,5 +1,5 @@
 import "./App.css";
-import { StorageComponent } from "./components";
+import { StateWithHistory } from "./components";
 
 function App() {
   return (
@@ -10,7 +10,8 @@ function App() {
       {/* <ArrayComponent /> */}
       {/* <AxiosComponent /> */}
       {/* <PreviousComponent /> */}
-      <StorageComponent />
+      {/* <StorageComponent /> */}
+      <StateWithHistory />
     </div>
   );
 }
