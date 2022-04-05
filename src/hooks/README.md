@@ -105,4 +105,12 @@ returns an object with data, error, isValidating, mutate.
 
 ### **To call the hook...**
 
-` const {data, error, isValidating, mutate } = useAxios(url);`
+`const {data, error, isValidating, mutate } = useAxios(url)`
+
+# usePrevious
+
+usePrevious hook stores the previous state and returns it.
+
+### **To call the hook...**
+
+`const previous = usePrevious(value)`

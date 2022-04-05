@@ -1,5 +1,5 @@
 import "./App.css";
-import { AxiosComponent } from "./components";
+import { PreviousComponent } from "./components";
 
 function App() {
   return (
@@ -8,7 +8,8 @@ function App() {
       {/* <TimeoutComponent /> */}
       {/* <DebounceComponent /> */}
       {/* <ArrayComponent /> */}
-      {<AxiosComponent />}
+      {/* <AxiosComponent /> */}
+      <PreviousComponent />
     </div>
   );
 }
