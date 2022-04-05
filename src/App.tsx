@@ -1,5 +1,5 @@
 import "./App.css";
-import { PreviousComponent } from "./components";
+import { StorageComponent } from "./components";
 
 function App() {
   return (
@@ -9,7 +9,8 @@ function App() {
       {/* <DebounceComponent /> */}
       {/* <ArrayComponent /> */}
       {/* <AxiosComponent /> */}
-      <PreviousComponent />
+      {/* <PreviousComponent /> */}
+      <StorageComponent />
     </div>
   );
 }
