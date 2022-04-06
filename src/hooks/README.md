@@ -151,3 +151,11 @@ move back, and forward through the history. The go function needs passing a numb
 ### **history**, & **pointer**
 
 history is an array of the state history, pointer is where the current state is at i the history.
+
+# useDeepCompareEffect
+
+useEffect but with a better comparison of the dependencies. So if a object is has the same values it will not rerender the component. Unlike useEffect that rerenders the component if the object is a new reference but the same data.
+
+### **To call the hook...**
+
+`useDeepCompareEffect(() => { functions to run }, [dependencies]);`

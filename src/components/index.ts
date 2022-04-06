@@ -6,3 +6,4 @@ export { AxiosComponent } from "./axios-component";
 export { PreviousComponent } from "./previous-component";
 export { StorageComponent } from "./storage-component";
 export { StateWithHistory } from "./state-with-history";
+export { DeepCompareEffect } from "./deep-compare-effect";

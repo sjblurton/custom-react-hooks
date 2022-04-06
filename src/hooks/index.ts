@@ -7,3 +7,4 @@ export { useAxios } from "./use-axios";
 export { usePrevious } from "./use-previous";
 export { useLocalStorage, useSessionStorage } from "./use-storage";
 export { useStateWithHistory } from "./use-state-with-history";
+export { useDeepCompareEffect } from "./use-deep-compare-effect";

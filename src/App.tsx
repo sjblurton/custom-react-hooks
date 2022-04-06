@@ -1,5 +1,5 @@
 import "./App.css";
-import { StateWithHistory } from "./components";
+import { DeepCompareEffect } from "./components";
 
 function App() {
   return (
@@ -11,7 +11,8 @@ function App() {
       {/* <AxiosComponent /> */}
       {/* <PreviousComponent /> */}
       {/* <StorageComponent /> */}
-      <StateWithHistory />
+      {/* <StateWithHistory /> */}
+      <DeepCompareEffect />
     </div>
   );
 }
